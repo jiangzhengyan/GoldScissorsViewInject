@@ -7,20 +7,24 @@
 
 
 **@LayoutViewCut 绑定activity布局**
+
 **@ViewCut 绑定控件资源 省去繁琐的findViewById**
-**1@OnClickCut 控件点击事件**
-**What you could do with this**
+
+**@OnClickCut 控件点击事件**
+
+ 
 
 ### 使用方法
 
 **(1) 把libs下面的GoldenScissors.jar导进自己的项目中或者把library下的源码防盗自己的项目中**
 
 **(2) 在onCreate方法中绑定此工具**
+
 ***GoldenScissors.cut(this);***
 
-** (3) 根据需要,按照以下的方式去使用**
+**(3) 根据需要,按照以下的方式去使用**
 
-###  1,@LayoutViewCut 注解绑定布局,(省去setContentView)
+### 1,@LayoutViewCut 注解绑定布局,(省去setContentView)
 
 在继承activity的类位置添加注解(如 @LayoutViewCut(R.layout.activity_main)),例如
     
