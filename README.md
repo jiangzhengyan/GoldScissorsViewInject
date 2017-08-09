@@ -43,6 +43,7 @@
           3,@ViewCut({R.id.tv_1, R.id.tv_2}) //多个控件
         
          如下
+         
         @ViewCut({R.id.tv_1, R.id.tv_2})
         private TextView tv1, tv2;
 
