@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GoldScissorsViewInject.iml" filepath="$PROJECT_DIR$/GoldScissorsViewInject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoldenScissorsViewInject.iml" filepath="$PROJECT_DIR$/GoldenScissorsViewInject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldenscissorslibrary/goldenscissorslibrary.iml" filepath="$PROJECT_DIR$/goldenscissorslibrary/goldenscissorslibrary.iml" />
     </modules>
