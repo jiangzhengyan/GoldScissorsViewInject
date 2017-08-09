@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.jiang.zheng.yan.goldscissorsviewinject">
+          package="com.jiang.zheng.yan.goldenscissorsviewinject">
 
     <application
         android:allowBackup="true"

@@ -1,4 +1,4 @@
-package com.jiang.zheng.yan.goldscissorsviewinject;
+package com.jiang.zheng.yan.goldenscissorsviewinject;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,10 +6,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.jiang.zheng.yan.goldscissors.GoldScissors;
-import com.jiang.zheng.yan.goldscissors.LayoutViewCut;
-import com.jiang.zheng.yan.goldscissors.OnClickCut;
-import com.jiang.zheng.yan.goldscissors.ViewCut;
+import com.jiang.zheng.yan.goldenscissors.GoldenScissors;
+
+import com.jiang.zheng.yan.goldenscissors.LayoutViewCut;
+import com.jiang.zheng.yan.goldenscissors.OnClickCut;
+import com.jiang.zheng.yan.goldenscissors.ViewCut;
 
 /**
  *
@@ -40,7 +41,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // setContentView(R.layout.activity_main);
-        GoldScissors.cut(this);
+        GoldenScissors.cut(this);
 
         if (tv1 != null) {
             tv1.setText("金剪刀注入成功,tv1");

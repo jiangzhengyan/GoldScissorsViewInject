@@ -1,4 +1,4 @@
-package com.jiang.zheng.yan.goldscissorsviewinject;
+package com.jiang.zheng.yan.goldenscissorsviewinject;
 
 import org.junit.Test;
 

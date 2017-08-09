@@ -1,1 +1,1 @@
-include ':app', ':goldscissorslibrary'
+include ':app', ':goldenscissorslibrary'

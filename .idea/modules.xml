@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GoldScissorsViewInject.iml" filepath="$PROJECT_DIR$/GoldScissorsViewInject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/goldscissorslibrary/goldscissorslibrary.iml" filepath="$PROJECT_DIR$/goldscissorslibrary/goldscissorslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goldenscissorslibrary/goldenscissorslibrary.iml" filepath="$PROJECT_DIR$/goldenscissorslibrary/goldenscissorslibrary.iml" />
     </modules>
   </component>
 </project>

@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * @author jiang_yan
  * 
  */
-public class GoldScissors {
+public class GoldenScissors {
 
 	public static void cut(final Activity activity) {
 
