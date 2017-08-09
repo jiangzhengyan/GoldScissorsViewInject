@@ -6,11 +6,11 @@
 ## 三个最主要的注解类型 
 
 
-**@LayoutViewCut 绑定activity布局**
+@LayoutViewCut 绑定activity布局
 
-**@ViewCut 绑定控件资源 省去繁琐的findViewById**
+@ViewCut 绑定控件资源 省去繁琐的findViewById
 
-**@OnClickCut 控件点击事件**
+@OnClickCut 控件点击事件
 
  
 
@@ -20,7 +20,7 @@
 
 **(2) 在onCreate方法中绑定此工具**
 
-***GoldenScissors.cut(this);***
+     GoldenScissors.cut(this); 
 
 **(3) 根据需要,按照以下的方式去使用**
 
@@ -37,7 +37,9 @@
 ###   2,@ViewCut,可以代替findviewbyid找控件,在成员变量上面添加
 
           1,@ViewCut(R.id.tv_1).//单个控件
+          
           2,@ViewCut({R.id.tv_1})  //单个控件
+          
           3,@ViewCut({R.id.tv_1, R.id.tv_2}) //多个控件
         
          如下
