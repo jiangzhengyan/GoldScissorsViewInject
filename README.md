@@ -6,9 +6,10 @@
 
 
 ### 1,@LayoutViewCut 注解绑定布局,(省去setContentView)
+``````````
 
-    
-    在继承activity的类位置添加注解(如 @LayoutViewCut(R.layout.activity_main)),例如
+
+在继承activity的类位置添加注解(如 @LayoutViewCut(R.layout.activity_main)),例如
     
     @LayoutViewCut(R.layout.activity_main)
     public class MainActivity extends Activity {
