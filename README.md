@@ -1,9 +1,22 @@
 # GoldenScissorsViewInject
 ### 前言
-#### 金剪刀注解工具,是一款本人自主开发的非常值得大家一用的页面注解工具,代码量少,轻量级.之所以起这个名字,主要是他用着超级方便,性能非常高,基本能满足大部分开发者的需求.jar包非常小,源码也非常少,功能却很强大.
+#### 金剪刀注解工具,是本人写的一个轻量级的android开发页面注解工具,代码量少,非常轻量级.之所以起这个名字,主要是他jar包非常小,源码也非常少,使用方便,性能高,基本能满足大部分开发者的需求.
+### detail more to read myself blog : https://rubensousa.github.io/2016/08/viewpagercards
+
+## 三个最主要的注解类型 
+**@LayoutViewCut 绑定activity布局**
+**@ViewCut 绑定控件资源 省去繁琐的findViewById**
+**@OnClickCut 控件点击事件**
+
 
 ### 使用方法
 
+** (1) 把libs下面的GoldenScissors.jar导进自己的项目中或者把library下的源码防盗自己的项目中**
+
+** (2) 在onCreate方法中绑定此工具 **
+*** GoldenScissors.cut(this);***
+
+** (3) 根据需要,按照以下的方式去使用**
 
 ### 1,@LayoutViewCut 注解绑定布局,(省去setContentView)
 ``````````
