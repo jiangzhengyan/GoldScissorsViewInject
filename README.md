@@ -5,10 +5,11 @@
 
 ## 三个最主要的注解类型 
 
-    **@LayoutViewCut 绑定activity布局**
-    **@ViewCut 绑定控件资源 省去繁琐的findViewById**
-    **@OnClickCut 控件点击事件**
 
+**@LayoutViewCut 绑定activity布局**
+**@ViewCut 绑定控件资源 省去繁琐的findViewById**
+**1@OnClickCut 控件点击事件**
+**What you could do with this**
 
 ### 使用方法
 
