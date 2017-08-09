@@ -4,23 +4,22 @@
 ### detail more to read myself blog : https://rubensousa.github.io/2016/08/viewpagercards
 
 ## 三个最主要的注解类型 
-**@LayoutViewCut 绑定activity布局**
-**@ViewCut 绑定控件资源 省去繁琐的findViewById**
-**@OnClickCut 控件点击事件**
+
+    **@LayoutViewCut 绑定activity布局**
+    **@ViewCut 绑定控件资源 省去繁琐的findViewById**
+    **@OnClickCut 控件点击事件**
 
 
 ### 使用方法
 
-** (1) 把libs下面的GoldenScissors.jar导进自己的项目中或者把library下的源码防盗自己的项目中**
+**(1) 把libs下面的GoldenScissors.jar导进自己的项目中或者把library下的源码防盗自己的项目中**
 
-** (2) 在onCreate方法中绑定此工具 **
-*** GoldenScissors.cut(this);***
+**(2) 在onCreate方法中绑定此工具**
+***GoldenScissors.cut(this);***
 
 ** (3) 根据需要,按照以下的方式去使用**
 
-### 1,@LayoutViewCut 注解绑定布局,(省去setContentView)
-``````````
-
+###  1,@LayoutViewCut 注解绑定布局,(省去setContentView)
 
 在继承activity的类位置添加注解(如 @LayoutViewCut(R.layout.activity_main)),例如
     
@@ -30,7 +29,7 @@
         private TextView tv1, tv2;
         
         
-###  2,@ViewCut,可以代替findviewbyid找控件,在成员变量上面添加
+###   2,@ViewCut,可以代替findviewbyid找控件,在成员变量上面添加
 
           1,@ViewCut(R.id.tv_1).//单个控件
           2,@ViewCut({R.id.tv_1})  //单个控件
@@ -51,8 +50,8 @@
     
     
     
-    
 ### 3, @OnClickCut 点击事件 
+
 
 注:方法的的命名参数名必须为View,方法名只要符合基本命名规则就行
 
