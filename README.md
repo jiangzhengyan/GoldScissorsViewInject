@@ -17,7 +17,7 @@
 ### 使用方法
 
 
-**(1) 把libs下面的GoldenScissors.jar导进自己的项目中或者把library下的源码防盗自己的项目中**
+**(1) 把libs下面的GoldenScissors.jar导进自己的项目中或者把library下的源码放到自己的项目中**
 
 **(2) 在onCreate方法中绑定此工具**
 
