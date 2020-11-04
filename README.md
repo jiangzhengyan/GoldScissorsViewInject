@@ -1,7 +1,7 @@
 # GoldenScissorsViewInject
 ### 前言
 #### 金剪刀注解工具,是本人写的一个轻量级的android开发页面注解工具,代码量少,非常轻量级.之所以起这个名字,主要是他jar包非常小,源码也非常少,使用方便,性能高,基本能满足大部分开发者的需求.
-### detail more to read myself blog : http://blog.csdn.net/qq_33275672/article/details/77018935
+### detail more to read my blog : http://blog.csdn.net/qq_33275672/article/details/77018935
 
 ## 三个最主要的注解类型 
 
